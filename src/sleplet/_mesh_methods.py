@@ -114,7 +114,7 @@ def read_mesh(
 ) -> tuple[npt.NDArray[np.float64], npt.NDArray[np.int_]]:
     """Read in the given mesh."""
     vertices, faces = igl.read_triangle_mesh(
-        str(_data_path / f"meshes_polygons_{mesh_config['FILENAME']}"),
+        _data_path / f"meshes_polygons_{mesh_config['FILENAME']}",
     )
     return igl.upsample(vertices, faces, number_of_subdivs=mesh_config["UPSAMPLE"])
 
