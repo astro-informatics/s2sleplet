@@ -20,4 +20,4 @@ jobs:
       - uses: paddyroddy/.github/actions/python/deployment@a572508d17fc531e8ad9c0389c0fe51d522b2204 # v0
         with:
           pyproject-toml: ./pyproject.toml
-          python-version: "3.12"
+          python-version: "3.13"

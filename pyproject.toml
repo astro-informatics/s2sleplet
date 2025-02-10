@@ -16,6 +16,7 @@ classifiers = [
     "Programming Language :: Python :: 3 :: Only",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Topic :: Scientific/Engineering :: Image Processing",
     "Topic :: Scientific/Engineering :: Mathematics",
     "Topic :: Scientific/Engineering :: Physics",
@@ -210,6 +211,7 @@ overrides."tool.tox.env_run_base.commands".inline_arrays = false
 env_list = [
     "py311",
     "py312",
+    "py313",
 ]
 env_run_base = {commands = [
     [
@@ -224,4 +226,6 @@ gh.python = {"3.11" = [
     "py311",
 ], "3.12" = [
     "py312",
+], "3.13" = [
+    "py313",
 ]}

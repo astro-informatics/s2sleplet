@@ -20,5 +20,5 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           project-directory: ./src/sleplet
           pyproject-toml: ./pyproject.toml
-          python-version: "3.12"
+          python-version: "3.13"
           template-directory: ./documentation
